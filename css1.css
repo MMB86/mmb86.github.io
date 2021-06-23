@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+p:first-line
+{
+	font-size: 300%;
+}
+
+p:first-letter
+{
+	color: red;
+}
+.text b
+{
+	font-style: italic;
+	background-color: green;
+}
+h3
+{
+	color: orange;
+	
+}
+h4
+{
+	font-weight: bold;
+}
+.fruits
+{
+	color: red;
+}
+.veget
+{
+	color: green;
+}
+.tab1 td
+{
+	background: green;
+}
+table
+{
+	text-align: center;
+}
+.News a
+{
+	color: red;
+}
+.i:before
+{
+    content: '\0024';
+    color: red;
+}
+.i:after
+{
+	content: '\0026 ';
+
+}
+.table
+{
+	border: 1px solid;
+	width: 500px;
+	height: 250px;
+}
+.table tr:nth-child(2n)
+{
+    background:#ddebf7;
+}
+.table td:nth-child(2n+3)
+
+{
+    background: #f2f2de;
+}
+div.forma{
+	margin: 50px 50px;
+}
+.red{
+	background-color: red;
+	border-radius: 5px;
+	margin: 10px;
+}
+.green{
+	background-color: green;
+	border-radius: 5px;
+	margin: 10px;
+}
+.blue{
+	background-color: blue;
+	border-radius: 5px;
+	margin: 10px;
+}
+input[class="red"]:disabled + label{
+	color: #ccc;
+
+	
+
+
+}
+
+
+
+
